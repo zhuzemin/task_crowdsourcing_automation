@@ -1,0 +1,9 @@
+{
+	"priority": 2,
+	"categoryStrList": ["btn1","btn2"],
+	"filename": "category1.json",
+	"avairable": true,
+	"matchKeywordNum":	2,
+	"matchingKeywordList": ["Tokyo","Beijing"],	
+	"specialCondition": ""
+}

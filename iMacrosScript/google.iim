@@ -1,0 +1,4 @@
+TAB T=OPEN
+TAB T=2
+URL GOTO=https://www.google.com/search?q={{keyword}}
+TAG POS=1 TYPE=SPAN ATTR=CLASS:st EXTRACT=TXT

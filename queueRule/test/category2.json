@@ -1,0 +1,15 @@
+{
+  "priority": 1,
+  "categoryStrList": [
+    "tcs-icon tcs-icon-language"
+  ],
+  "filename": "category2.json",
+  "avairable": true,
+  "matchKeywordNum": 1,
+  "matchingKeywordList": [
+    "Python",
+    "GUI",
+      "Crowdsourcing"
+  ],
+  "specialCondition": "TAG POS=1 TYPE=DIV ATTR=ID:result-stats EXTRACT=TXT\nSET ret EVAL(\"var ret;if(parseInt('{{!EXTRACT}}'.match(/(\\d)/)[1])>1){ret='tcs-icon<SP>tcs-icon-language'}\")\nSET !EXTRACT {{ret}}"
+}

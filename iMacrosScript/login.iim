@@ -1,0 +1,6 @@
+WAIT SECONDS=2
+TAB CLOSEALLOTHERS
+TAB T=OPEN
+TAB T=2
+URL GOTO=https://tcs-sg.jiyunhudong.com/login?next=%2F
+'TAG POS=1 TYPE=BUTTON ATTR=ID:google-login-btn
